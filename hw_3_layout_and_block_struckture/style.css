@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.logo-grow {
+    font-size: 24px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: #000;
+}
+
+.logo-be {
+    font-size: 24px;
+    font-family: Gilroy-Bold, sans-serif;
+    color: #F25822;
+}
+
+.navigate__menu__home {
+    color: #F25822;
+    font-size: 14px;
+    font-family: Gilroy-SemiBold sans-serif;
+}
+
+.navigate__menu {
+    color: #000;
+    font-size: 14px;
+    font-family: Gilroy-SemiBold sans-serif;
+}
+
+.buttons {
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F25822;
+}
+
+.buttons__text {
+    color: #FFF;
+    font-size: 12px;
+    font-family: Gilroy-SemiBold sans-serif;
+}
+
+.content__image {
+    padding-top: 84px;
+}
+
+.title {
+    padding-top: 84px;
+}
+
+.title {
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold sans-serif;
+}
+
+.text {
+    padding-top: 17px;
+}
+
+.text {
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium sans-serif;
+}
+
+.top__buttons {
+    padding-top: 37px;
+    padding-bottom: 162px;
+}
+
+.button__click__text {
+    color: #AAA;
+    font-size: 15px;
+    font-family: Gilroy-Bold sans-serif;
+}
+
+.top__logos {
+    padding-top: 97px;
+    margin-bottom: 96px;
+}
