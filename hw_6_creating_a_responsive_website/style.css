@@ -2,3 +2,83 @@
     margin: 0;
     padding: 0;
 }
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.container {
+
+}
+
+/*========== Header ==============*/
+
+.page__header {
+    background: #222222;
+}
+
+.center__block {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+}
+
+.page__header__wrp__btn {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.page__header__logo {
+
+}
+
+.page__header__search {
+
+}
+
+.page__header__menu {
+
+}
+
+.page__header__account {
+
+}
+
+.page__header__cart {
+
+}
+
+/*========== top__content ==============*/
+
+.top__content {
+    min-width: 1600px;
+    min-height: 764px;
+    background: #F1E4E6;
+}
+
+.banner__image {
+
+}
+
+.banner__title {
+    display: block;
+    width: 100%;
+    max-width: 377px;
+
+}
+
+.banner__title::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+    position: absolute;
+    top: 0;
+    left: -28px;
+}
